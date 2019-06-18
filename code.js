@@ -28,5 +28,12 @@ function isFive(input){
     }else{
         return typeof input === 'boolean';
     }
+}
 
+function isEven(input){
+    if((parseInt(input)) % 2 === 0) {
+        return true;
+    }else{
+        return false;
+    }
 }
