@@ -15,7 +15,18 @@ function sayHello(input){
 
     if (typeof input === 'string') {
         return "Hello, " + input + "!";
+    // }else if () {
+    //     return helloWorld();
     }else{
         return helloWorld();
     }
+}
+
+function isFive(input){
+    if((input === 5) || (Number(input) === 5)){
+        return true;
+    }else{
+        return typeof input === 'boolean';
+    }
+
 }
