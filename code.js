@@ -12,5 +12,10 @@ function add(num1, num2){
 }
 
 function sayHello(input){
-    return "Hello, " + input + "!";
+
+    if (typeof input === 'string') {
+        return "Hello, " + input + "!";
+    }else{
+        return helloWorld();
+    }
 }
